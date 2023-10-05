@@ -6,7 +6,7 @@
  * @returns {JSX.Element} - React component displaying the accordion of tabs and charts.
  */
 import React, { useState } from "react";
-import "./Accordion.scss"; // Import your SCSS file for styling
+import "./accordion.scss"; // Import your SCSS file for styling
 import StackedBarChart from "./stackedbar";
 import RadarChart from "./stacked3d";
 import Chart from "./gradient";
