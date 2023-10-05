@@ -1,0 +1,27 @@
+.accordion {
+    background-color: white;
+    color: black !important;
+    
+    
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  .active {
+    display: block;
+  }
+  

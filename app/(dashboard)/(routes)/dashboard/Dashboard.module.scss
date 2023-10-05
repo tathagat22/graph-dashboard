@@ -1,0 +1,59 @@
+/* Dashboard.module.scss */
+.dashboardContainer {
+    /* Add any background color or other styles to the container if needed */
+  }
+  
+  .navbar {
+    background-color: #f0f0f0; /* Off-white background color */
+    color: #333; /* Text color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .userControls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userButton {
+    margin-right: 10px;
+  }
+  
+  /* Style the Sign Out button */
+  .signOutButton {
+    background-color: #000000; /* Red background color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover transition */
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #ff3333; /* Darker red on hover */
+    }
+  }
+  
+  .mainContent {
+    /* Add any additional styles for the main content section here */
+    padding: 20px;
+    text-align: center; /* Center the content */
+  }
+  
+  .welcomeText {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Add any additional styles for your Accordion component here */
+  
